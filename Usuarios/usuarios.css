@@ -1,0 +1,47 @@
+*{
+    /* configurações universais */
+    margin: 0; /* espaço fora dos elementos*/
+    /* padding: 0; /* espaço dentro dos elementos */
+    box-sizing: border-box; /* ajusta os elementos aos conteiners / caixinhas */
+}
+
+body {
+    background-color: #f2f2f2;
+    color: #333333;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.cabecalho {
+    background-color: rgb(0, 0, 0); /* cor do fundo */
+    color: #ffffff; /* cor do texto */
+    text-align: center; /* alinhamento de texto */
+    padding: 20px;
+}
+
+
+#titulo-principal {
+    font-size: 50px; /* tamanho da fonte / textos */
+}
+
+.login {
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+table {
+    border:1px solid #333333;
+    border-radius: 5px;
+    width: 15%;
+    margin: 0 auto; 
+
+}
+
+th,
+td {
+    border: 1px solid #999999;
+    padding: 10px;
+}
